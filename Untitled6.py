@@ -8,7 +8,7 @@ from pprint import pprint
 
 
 
-api="AIzaSyBXYw_iE-GAobVn1L83BiyBg7KioYnk8wY"
+api="your API key"
 cid="21uh28Z77Xg,PvYhZT99g1s"
 y=build('youtube','v3',developerKey=api)
 
@@ -65,44 +65,3 @@ def tocsv(a,name):
         return "csv successfully created"
         
             
-            
-
-
-# In[67]:
-
-
-##g=['a','b','c']
-##u=[1,2,3]
-##
-##j=dict(zip(g,u))
-##
-##
-### In[69]:
-##
-##
-##pd.DataFrame([j])
-##
-##
-### In[79]:
-##
-##
-##head=['Video_id','Title','Date_of_publishment','views_count','likes']
-##
-##
-### In[81]:
-
-
-##jn=dict(zip(head,b))
-##
-##
-### In[82]:
-##
-##
-##pd.DataFrame(jn)
-##
-##
-### In[ ]:
-##
-##
-##
-##
